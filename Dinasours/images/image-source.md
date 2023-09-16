@@ -1,1 +1,0 @@
-Photo by Huang Yingone on Unsplash
