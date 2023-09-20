@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=H, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>SINAV SORULARI</h1>
+    </header>
+    <main>
+      <select name="sinavtipi" id="sinavtipi">
+        <option value="mat">MATEMATİK</option>
+        <option value="tur">TURKCE</option>
+        <option value="it">IT</option>
+        <option value="ing">İNGİLİZCE</option>
+      </select>
+
+      <section>
+        <article>
+          <h2>BOSLUK DOLDURMALI SORULAR :</h2>
+          <p>
+            S1) Lorem, ipsum dolor
+            <input
+              type="text"
+              style="border: none"
+              placeholder="_____________________"
+            />Lorem, ipsum.
+          </p>
+          <p>
+            S2) Lorem, ipsum dolor<input
+              type="text"
+              style="border: none"
+              placeholder="_____________________"
+            />Lorem, ipsum.
+          </p>
+          <p>
+            S3) Lorem, ipsum dolor
+            <input
+              type="text"
+              style="border: none"
+              placeholder="_____________________"
+            />Lorem, ipsum.
+          </p>
+
+          <h2>ÇOKTAN SEÇMELİ SORULAR</h2>
+          <label for="soru1">S1 Lorem ipsum dolor sit amet.</label><br />
+          <!-- <input type="radio"/ A) Lorem, ipsum. > <input type="radio"/ B) Lorem, -->
+          <!-- ipsum. > -->
+          <input type="radio" name="Q1" value="a" />A
+          <input type="radio" name="Q1" value="b" />B
+          <input type="radio" name="Q1" value="c" />C
+          <input type="radio" name="Q1" value="d" />D
+        </article>
+        <article>
+          <h2>SECMELİ SORULAR:</h2>
+          <label for="semeli">Aşağıdakilerden kaçı doğrudur:</label><br>
+
+          <input type="checkbox" />Lorem, ipsum. <input type="checkbox" />Lorem,
+          ipsum. <input type="checkbox" checked/>Lorem, ipsum.
+          <input type="checkbox" />Lorem, ipsum.
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
