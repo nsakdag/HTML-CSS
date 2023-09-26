@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy:ital@1&display=swap");
+
+* {
+  padding: 0;
+  color: #fff;
+}
+body {
+  background: url(./background_image.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.perde {
+  background: rgba(0, 0, 0, 0.6);
+  width: 90%;
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0px;
+}
+
+.container {
+  height: 100%;
+  width: 400px;
+  /* border: 2px solid red; */
+  padding: 0px;
+}
+
+.title {
+  font-family: "Bowlby One SC", cursive;
+  text-align: center;
+  height: 10%;
+  padding: 0px;
+  /* border: 2px solid purple; */
+}
+
+.netflix {
+  font-size: 28px;
+}
+
+.netflix span {
+  color: red;
+}
+
+.thanks {
+  font-family: "Sorts Mill Goudy", sans-serif;
+  font-size: 15px;
+}
+
+.containeralt {
+  font-family: "Sorts Mill Goudy", sans-serif;
+  font-size: 12px;
+  height: 83%;
+  background: #000000c8;
+  background: cover;
+  padding: 25px;
+  /* border: 1px solid red; */
+}
+
+.nameinput {
+  height: 4vh;
+  width: 100%;
+}
+
+select {
+  width: 100%;
+}
+.checkbox {
+  display: block;
+  align-items: center;
+}
+
+.textarea {
+  margin-left: 50%;
+  transform: translate(-50%, 0);
+  height: 10vh;
+  width: 300px;
+}
+
+.button {
+  text-align: center;
+  color: white;
+  background: red;
+  padding: 10px;
+  border-radius: 20px;
+  margin-left: 50%;
+  transform: translate(-50%, 0);
+}
