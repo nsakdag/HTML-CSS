@@ -4,6 +4,7 @@
 * {
   padding: 0;
   color: #fff;
+  box-sizing: border-box;
 }
 body {
   background: url(./background_image.jpg);
@@ -53,7 +54,7 @@ body {
 .containeralt {
   font-family: "Sorts Mill Goudy", sans-serif;
   font-size: 12px;
-  height: 83%;
+  height: 90%;
   background: #000000c8;
   background: cover;
   padding: 25px;
