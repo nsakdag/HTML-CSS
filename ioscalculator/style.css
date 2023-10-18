@@ -1,0 +1,52 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.container {
+  font-family: "Helvetica Neue", sans-serif;
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: repeat(5, 100px);
+  grid-gap: 5px;
+  align-content: end;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  height: 740px;
+  width: 490px;
+  border-radius: 50px;
+  padding: 10px;
+}
+
+button {
+  background-color: #333333;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+ 
+  font-size: 45px;
+  color: white;
+}
+
+.ustuc {
+  color: black;
+  background: #a5a5a5;
+}
+
+.sagdort {
+  background: #f1a33c;
+}
+
+.sifir {
+  grid-column: 1 / span 2;
+  width: 205px;
+  border-radius: 55px;
+  justify-content: flex-start;
+}
+
+.nokta {
+  grid-column: 3 /4;
+}
