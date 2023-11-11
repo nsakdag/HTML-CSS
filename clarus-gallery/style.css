@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  background-color: #f76b1fbd;
+  color: black;
+  font-weight: 700;
+  position: sticky;
+  z-index: 100;
+  padding: 20px;
+  top: 0;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  text-decoration: none;
+  gap: 3rem;
+  margin-top: 20px;
+}
+
+li {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+main {
+  min-height: 100vh;
+  padding: 30px;
+  /* height: 100vh; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4;
+}
+
+section {
+  margin: 40px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background-color: #f4f4f4;
+}
+
+.img {
+
+  background-size: cover;
+  background-position: center;
+  width: 350px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 20px solid #fff;
+}
+
+.img:hover {
+  cursor: zoom-in;
+}
+
+.img:hover a {
+  visibility: visible;
+  cursor: zoom-in;
+}
+
+.box1 {
+background-image: url("https://picsum.photos/id/684/600/400");
+}
+
+.box2 {
+   background-image: url("https://picsum.photos/id/685/600/400");
+
+}
+.box3 {
+    background: url(indir2.jpeg) no-repeat;
+
+}
+.box4 {
+    background: url(indir1.jpeg) no-repeat;
+
+}
+.box5 {
+    background: url(indir.jpeg) no-repeat;
+
+}
+.img a {
+  font-size: 30px;
+  color: black;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 15px;
+  backdrop-filter: blur(5px);
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.25);
+  visibility: hidden;
+}
+
+footer {
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25px;
+  width: 100%;
+  text-align: center;
+  background-color: #f76b1fbd;
+  color: black;
+  /* font-weight: 700; */
+  padding: 20px;
+  
+}
