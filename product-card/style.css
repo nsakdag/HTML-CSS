@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #efefef;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  background-color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 95%;
+  height: 90%;
+  gap: 1rem;
+  box-shadow: 0 0 35px rgba(37, 36, 36, 0.611);
+}
+
+.cont {
+  /* border: 2px solid purple; */
+  width: 50%;
+}
+
+.photo {
+  width: 100%;
+  flex: 1;
+  /* border: 2px solid red; */
+}
+
+.writings {
+
+  width: 50%;
+  flex: 1;
+  /* border: 2px solid blue; */
+  font-family: 'Poppins', sans-serif;
+}
+
+.Macbook{
+ display: flex;
+ align-items: center;
+ gap: 0.5rem;
+
+
+}
+.Macbook1 {
+  
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.Macbook2 {
+    
+    background-color: #2175F5;
+    color: white;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    line-height: 32px;
+    display: inline-block;
+    /* width: 30px; */
+    /* height: 40px; */
+    /* text-align: center; */
+    padding: 0 10px;
+   
+}
+
+h3.apple {
+    font-weight: 500;
+    color: #444444;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-weight: 600;
+    color: black;
+}
+.par { 
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    
+}
+
+li {
+    font-size: 17px;
+}
+.gb{
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.gb span{
+   
+    margin-left: 30px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    background-color: #EEEEEE;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    width: 80px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.gb span:hover {
+    background-color: #2175F5;
+    color: white;
+}
+.card {
+    display: flex;
+    
+    justify-content: space-between;
+    margin-top: 2rem;
+    padding: 0 20px;
+}
+
+.addtocard {
+    display: flex;
+    align-items: center;
+    background-color: #2175F5 ;
+    padding: auto;
+    border: 1px solid #2175F5;
+}
+
+.card a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #EEEEEE;
+    padding: 10px 10px;
+    
+}
+
+.icon {
+    display: flex;
+    
+}
+
+.icon i {
+    font-size: 28px;
+    color: black;
+    margin: 2px;
+    
+}
+
+@media screen and (max-width:250px) {
+    .card {flex-direction: column;}
+    .icon {flex-direction: column;}
+
+}
